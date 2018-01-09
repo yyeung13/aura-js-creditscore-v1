@@ -83,4 +83,3 @@ deploy-app-to-oce:
         token: $KUBERNETES_TOKEN
         insecure-skip-tls-verify: true
         command: apply -f <(istioctl kube-inject -f kubernetes-deployment.yml)
-

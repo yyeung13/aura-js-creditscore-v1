@@ -5,3 +5,4 @@
 kubectl delete deployment aura-js-creditscore-v1
 kubectl delete ing aura-js-creditscore
 kubectl delete service aura-js-creditscore
+
